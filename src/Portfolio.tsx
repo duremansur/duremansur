@@ -606,8 +606,9 @@ export default function Portfolio() {
             </div>
           </div>
         </div>
-
-        {/* Store Sales Forecasting Project */}
+</section>
+      
+{/* Store Sales Forecasting Project */}
 <section className="py-24 bg-white" data-animate>
   <div className="max-w-6xl mx-auto px-6">
     <div className={`transition-all duration-1000 ${isVisible.work ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
@@ -623,7 +624,7 @@ export default function Portfolio() {
             
             <div className="flex flex-wrap gap-3 mb-8">
               {['Data Science', 'Machine Learning', 'Statistical Computing', 'Business Intelligence', 'Time Series Analysis', 'R Programming'].map((tag, index) => (
-                <span key={index} className="bg-blue-100 text-blue-700 px-4 py-2 rounded-full text-sm font-medium border border-blue-200 hover:bg-blue-200 transition-colors">
+                <span key={index} className="bg-gray-100 text-gray-700 px-4 py-2 rounded-full text-sm font-medium border border-gray-200 hover:bg-gray-200 transition-colors">
                   {tag}
                 </span>
               ))}
@@ -632,22 +633,22 @@ export default function Portfolio() {
             {/* Key Metrics */}
             <div className="grid grid-cols-3 gap-4 mb-8">
               <div className="text-center p-4 bg-white rounded-xl border border-gray-200">
-                <div className="text-2xl font-bold text-blue-600">$1.07B</div>
+                <div className="text-2xl font-bold text-gray-800">$1.07B</div>
                 <div className="text-sm text-gray-500">Revenue Analyzed</div>
               </div>
               <div className="text-center p-4 bg-white rounded-xl border border-gray-200">
-                <div className="text-2xl font-bold text-green-600">28,512</div>
+                <div className="text-2xl font-bold text-gray-800">28,512</div>
                 <div className="text-sm text-gray-500">Predictions</div>
               </div>
               <div className="text-center p-4 bg-white rounded-xl border border-gray-200">
-                <div className="text-2xl font-bold text-purple-600">533.62</div>
-                <div className="text-sm text-gray-500">RMSE Accuracy</div>
+                <div className="text-2xl font-bold text-gray-800">533.62</div>
+                <div class‐Name="text-sm text-gray-500">RMSE Accuracy</div>
               </div>
             </div>
             
             <div className="flex gap-6">
               <a
-                href="https://store-sales-forecasting-dure.vercel.app/"
+                href="https://store-sales-dashboard.vercel.app/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-3 bg-gray-900 text-white px-8 py-4 rounded-xl font-bold hover:bg-gray-800 hover:scale-105 transition-all duration-300"
@@ -668,7 +669,7 @@ export default function Portfolio() {
           </div>
           
           <div className="relative">
-            <div className="bg-gradient-to-br from-blue-50 to-purple-50 p-8 rounded-2xl border border-gray-200 shadow-lg">
+            <div className="bg-gray-50 p-8 rounded-2xl border border-gray-200 shadow-lg">
               <div className="text-center space-y-6">
                 <div className="text-7xl">📊</div>
                 <h4 className="text-2xl font-bold text-gray-900">The Innovation</h4>
@@ -680,15 +681,15 @@ export default function Portfolio() {
                 {/* Technical Highlights */}
                 <div className="mt-6 space-y-3">
                   <div className="flex items-center justify-center gap-2 text-sm text-gray-600">
-                    <span className="w-2 h-2 bg-green-500 rounded-full"></span>
+                    <span className="w-2 h-2 bg-gray-500 rounded-full"></span>
                     50% Christmas seasonal boost automation
                   </div>
                   <div className="flex items-center justify-center gap-2 text-sm text-gray-600">
-                    <span className="w-2 h-2 bg-blue-500 rounded-full"></span>
+                    <span className="w-2 h-2 bg-gray-600 rounded-full"></span>
                     95% performance optimization via vectorization
                   </div>
                   <div className="flex items-center justify-center gap-2 text-sm text-gray-600">
-                    <span className="w-2 h-2 bg-purple-500 rounded-full"></span>
+                    <span className="w-2 h-2 bg-gray-700 rounded-full"></span>
                     Multi-dimensional time series analysis
                   </div>
                 </div>
@@ -700,8 +701,6 @@ export default function Portfolio() {
     </div>
   </div>
 </section>
-      
-
       {/* Contact Section */}
       <section id="connect" className="py-24 bg-white" data-animate>
         <div className="max-w-4xl mx-auto px-6">
