@@ -618,7 +618,7 @@ export default function Portfolio() {
           <div>
             <h3 className="text-4xl font-bold text-gray-900 mb-6">Store Sales Forecasting</h3>
             <p className="text-gray-600 text-lg leading-relaxed mb-8">
-              Advanced retail analytics dashboard with predictive modeling capabilities. 
+              Advanced retail analytics ecosystem featuring an interactive multi-product forecasting demo and comprehensive project dashboard. 
               Analyzed $1.07B+ in historical sales data using statistical algorithms and seasonal intelligence 
               to generate 28,512 precise forecasts for inventory optimization and business planning.
             </p>
@@ -642,30 +642,65 @@ export default function Portfolio() {
                 <div className="text-sm text-gray-500">Predictions</div>
               </div>
               <div className="text-center p-4 bg-white rounded-xl border border-gray-200">
-                <div className="text-2xl font-bold text-gray-800">533.62</div>
+                <div className="text-2xl font-bold text-gray-800">±533.62</div>
                 <div className="text-sm text-gray-500">RMSE Accuracy</div>
               </div>
             </div>
-            
-            <div className="flex gap-6">
-              <a
-                href="https://store-sales-dashboard.vercel.app/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center gap-3 bg-gray-900 text-white px-8 py-4 rounded-xl font-bold hover:bg-gray-800 hover:scale-105 transition-all duration-300"
-              >
-                <ExternalLink className="w-5 h-5" />
-                View Dashboard
-              </a>
+
+            {/* Project Links */}
+            <div className="space-y-4 mb-8">
+              <div className="flex gap-4">
+                <a
+                  href="https://salesforecastingmodel.vercel.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-3 bg-gray-900 text-white px-6 py-3 rounded-xl font-bold hover:bg-gray-800 hover:scale-105 transition-all duration-300 flex-1 justify-center"
+                >
+                  <span className="text-lg">🚀</span>
+                  Try Interactive Demo
+                </a>
+                <a
+                  href="https://store-sales-dashboard.vercel.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-3 border-2 border-gray-900 text-gray-900 px-6 py-3 rounded-xl font-bold hover:bg-gray-900 hover:text-white hover:scale-105 transition-all duration-300 flex-1 justify-center"
+                >
+                  <ExternalLink className="w-5 h-5" />
+                  Project Details
+                </a>
+              </div>
               <a
                 href="https://github.com/duremansur/store-sales-dashboard"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-3 border border-gray-300 text-gray-700 px-8 py-4 rounded-xl font-bold hover:bg-gray-100 hover:scale-105 transition-all duration-300"
+                className="flex items-center gap-3 border border-gray-300 text-gray-700 px-6 py-3 rounded-xl font-medium hover:bg-gray-100 hover:scale-105 transition-all duration-300 w-full justify-center"
               >
                 <Github className="w-5 h-5" />
-                View Code
+                View Source Code
               </a>
+            </div>
+
+            {/* Demo Features */}
+            <div className="bg-white p-6 rounded-xl border border-gray-200">
+              <h4 className="font-bold text-gray-900 mb-3">🎯 Interactive Demo Features</h4>
+              <div className="grid grid-cols-2 gap-3 text-sm text-gray-600">
+                <div className="flex items-center gap-2">
+                  <span className="w-2 h-2 bg-blue-500 rounded-full"></span>
+                  Multi-product selection
+                </div>
+                <div className="flex items-center gap-2">
+                  <span className="w-2 h-2 bg-green-500 rounded-full"></span>
+                  Real-time predictions
+                </div>
+                <div className="flex items-center gap-2">
+                  <span className="w-2 h-2 bg-purple-500 rounded-full"></span>
+                  Business intelligence
+                </div>
+                <div className="flex items-center gap-2">
+                  <span className="w-2 h-2 bg-orange-500 rounded-full"></span>
+                  Store performance analysis
+                </div>
+              </div>
             </div>
           </div>
           
@@ -692,6 +727,25 @@ export default function Portfolio() {
                   <div className="flex items-center justify-center gap-2 text-sm text-gray-600">
                     <span className="w-2 h-2 bg-gray-700 rounded-full"></span>
                     Multi-dimensional time series analysis
+                  </div>
+                </div>
+
+                {/* New: Project Components */}
+                <div className="mt-8 pt-6 border-t border-gray-200">
+                  <h5 className="font-bold text-gray-900 mb-4">Project Components</h5>
+                  <div className="space-y-2 text-sm">
+                    <div className="flex items-center justify-between">
+                      <span className="text-gray-600">Interactive Demo</span>
+                      <span className="text-gray-900 font-medium">Live Tool</span>
+                    </div>
+                    <div className="flex items-center justify-between">
+                      <span className="text-gray-600">Project Dashboard</span>
+                      <span className="text-gray-900 font-medium">Full Analysis</span>
+                    </div>
+                    <div className="flex items-center justify-between">
+                      <span className="text-gray-600">Source Code</span>
+                      <span className="text-gray-900 font-medium">GitHub Repo</span>
+                    </div>
                   </div>
                 </div>
               </div>
