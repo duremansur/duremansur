@@ -608,6 +608,7 @@ export default function Portfolio() {
         </div>
 </section>
       
+
 {/* Store Sales Forecasting Project */}
 <section className="py-24 bg-white" data-animate>
   <div className="max-w-6xl mx-auto px-6">
@@ -642,7 +643,7 @@ export default function Portfolio() {
               </div>
               <div className="text-center p-4 bg-white rounded-xl border border-gray-200">
                 <div className="text-2xl font-bold text-gray-800">533.62</div>
-                <div class‐Name="text-sm text-gray-500">RMSE Accuracy</div>
+                <div className="text-sm text-gray-500">RMSE Accuracy</div>
               </div>
             </div>
             
