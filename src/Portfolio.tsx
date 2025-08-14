@@ -606,8 +606,8 @@ export default function Portfolio() {
             </div>
           </div>
         </div>
-      </section>
-      {/* Store Sales Forecasting Project */}
+
+        {/* Store Sales Forecasting Project */}
 <section className="py-24 bg-white" data-animate>
   <div className="max-w-6xl mx-auto px-6">
     <div className={`transition-all duration-1000 ${isVisible.work ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
@@ -700,6 +700,8 @@ export default function Portfolio() {
     </div>
   </div>
 </section>
+      
+
       {/* Contact Section */}
       <section id="connect" className="py-24 bg-white" data-animate>
         <div className="max-w-4xl mx-auto px-6">
